@@ -1,0 +1,38 @@
+.left-library{
+    height: 600px;
+    background-color:#242424;
+    width: 330px;
+    margin-top: 7px;
+    color: white;
+}
+/* .library-name{
+    color: white;
+    font-style: normal;
+    padding-left: 10px;
+    padding-top: 20px;
+    
+} */
+.library-icon{
+    display: flex;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    gap:20px
+}
+.plus-icon{
+    margin-left: 100px;
+}
+
+.playlist-name{
+    
+    background-color:#1D1D1D;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.arstists-name{
+    background-color: #1D1D1D;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+}
