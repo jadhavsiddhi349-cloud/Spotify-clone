@@ -5,34 +5,113 @@
     margin-top: 7px;
     color: white;
 }
-/* .library-name{
+.library-name{
     color: white;
     font-style: normal;
-    padding-left: 10px;
-    padding-top: 20px;
+    padding-left: 17px;
+    padding-top: 10px;
+    font-weight: bold;
+   
     
-} */
+}
 .library-icon{
     display: flex;
-    height: 50px;
+    height: 70px;
     text-align: center;
     align-items: center;
-    gap:20px
+    gap:23px
 }
 .plus-icon{
-    margin-left: 100px;
+    margin-left: 120px;
+    height: 25px;
+    width: 25px;
 }
 
 .playlist-name{
     
-    background-color:#1D1D1D;
-    display: inline-block;
-    margin-left: 10px;
-    margin-top: 30px;
-}
-.arstists-name{
-    background-color: #1D1D1D;
+    background-color:#444444;
     display: inline-block;
     margin-left: 20px;
-    margin-top: 30px;
+    width: 70px;
+    height: 33px;
+    text-align: center;
+  padding-top: 5px;
+    border-radius: 15px;
+}
+.arstists-name{
+    background-color: #444444;
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 33px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+.searchrecents-icon{
+    display: flex;
+    padding-top: 25px;
+   
+}
+.recent{
+   margin-left: 180px;
+   
+   font-size: 17px;
+   width: 60px;
+   font-weight: normal;
+    color: rgb(155, 152, 152);
+ 
+}
+.recents-icon{
+    /* padding-top: 5px; */
+    margin-left: 10px;
+    height: 23px;
+      color: rgb(155, 152, 152);
+
+}
+.search{
+    margin-top: 10px;
+    color: rgb(155, 152, 152);
+    line-height: 10px;
+    margin-left: 30px;
+}
+.library-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 35px;
+  padding-left: 15px;
+}
+
+/* each row */
+.library-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* square image (Liked Songs) */
+.liked-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+}
+
+/* round image (Artist) */
+.artist-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* text styling */
+.text h6 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.text p {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
 }
