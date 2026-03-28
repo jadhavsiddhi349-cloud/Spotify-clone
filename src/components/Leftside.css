@@ -115,3 +115,6 @@
   font-size: 12px;
   color: gray;
 }
+.library-item:hover {
+  background-color: #2c2b2b;
+}
